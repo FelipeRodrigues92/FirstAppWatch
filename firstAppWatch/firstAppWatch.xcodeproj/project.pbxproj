@@ -22,6 +22,7 @@
 		AE3FFEA91F5DE3360081D497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3FFEA81F5DE3360081D497 /* Assets.xcassets */; };
 		AE3FFEBD1F5DE7170081D497 /* quiz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3FFEBC1F5DE7170081D497 /* quiz.storyboard */; };
 		AE3FFEBF1F5DE7240081D497 /* showMap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3FFEBE1F5DE7240081D497 /* showMap.storyboard */; };
+		AE3FFEC31F5DE98C0081D497 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3FFEC21F5DE98C0081D497 /* Country.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		AE3FFEAA1F5DE3360081D497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE3FFEBC1F5DE7170081D497 /* quiz.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = quiz.storyboard; sourceTree = "<group>"; };
 		AE3FFEBE1F5DE7240081D497 /* showMap.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = showMap.storyboard; sourceTree = "<group>"; };
+		AE3FFEC21F5DE98C0081D497 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +157,8 @@
 		AE3FFE9F1F5DE3350081D497 /* firstAppWatch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				AE3FFEA21F5DE3360081D497 /* InterfaceController.swift */,
+				AE3FFEC11F5DE9520081D497 /* Controller */,
+				AE3FFEC01F5DE9440081D497 /* Model */,
 				AE3FFEA41F5DE3360081D497 /* ExtensionDelegate.swift */,
 				AE3FFEA61F5DE3360081D497 /* NotificationController.swift */,
 				AE3FFEA81F5DE3360081D497 /* Assets.xcassets */,
@@ -171,6 +174,22 @@
 				AE3FFEA11F5DE3360081D497 /* PushNotificationPayload.apns */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE3FFEC01F5DE9440081D497 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE3FFEC21F5DE98C0081D497 /* Country.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AE3FFEC11F5DE9520081D497 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE3FFEA21F5DE3360081D497 /* InterfaceController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3FFEC31F5DE98C0081D497 /* Country.swift in Sources */,
 				AE3FFEA71F5DE3360081D497 /* NotificationController.swift in Sources */,
 				AE3FFEA51F5DE3360081D497 /* ExtensionDelegate.swift in Sources */,
 				AE3FFEA31F5DE3360081D497 /* InterfaceController.swift in Sources */,
