@@ -12,7 +12,14 @@
         <!--map-->
         <scene sceneID="zlU-Qz-R6q">
             <objects>
-                <controller identifier="map" id="Qe5-oK-2XS"/>
+                <controller identifier="map" id="Qe5-oK-2XS" customClass="MapController" customModule="firstAppWatch_WatchKit_Extension">
+                    <items>
+                        <map width="1" height="1" alignment="center" verticalAlignment="center" id="UCD-ZS-S5F"/>
+                    </items>
+                    <connections>
+                        <outlet property="map" destination="UCD-ZS-S5F" id="hQI-vy-jBm"/>
+                    </connections>
+                </controller>
             </objects>
             <point key="canvasLocation" x="-8" y="-234"/>
         </scene>

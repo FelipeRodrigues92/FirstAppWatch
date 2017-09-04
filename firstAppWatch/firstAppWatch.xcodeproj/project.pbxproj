@@ -348,6 +348,7 @@
 				AE3FFEC31F5DE98C0081D497 /* Country.swift in Sources */,
 				AE3FFEA71F5DE3360081D497 /* NotificationController.swift in Sources */,
 				AE3FFEA51F5DE3360081D497 /* ExtensionDelegate.swift in Sources */,
+				258C15651F5DEA8100E83B22 /* MapController.swift in Sources */,
 				AE3FFEA31F5DE3360081D497 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
