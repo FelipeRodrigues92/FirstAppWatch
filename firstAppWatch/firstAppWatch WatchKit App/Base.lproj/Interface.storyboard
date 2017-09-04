@@ -14,7 +14,20 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="firstAppWatch_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <button width="1" alignment="left" title="Button" id="T6k-x3-yob"/>
+                        <group width="1" alignment="left" layout="vertical" id="oqZ-MI-vy8">
+                            <items>
+                                <button width="1" alignment="left" title="Play " id="T6k-x3-yob">
+                                    <connections>
+                                        <action selector="playSound" destination="AgC-eL-Hgc" id="MCE-5p-cv2"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="Go to Quiz!" id="kre-lR-qvu">
+                                    <connections>
+                                        <action selector="goToQuiz" destination="AgC-eL-Hgc" id="asv-z5-36e"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
                     </items>
                     <connections>
                         <segue destination="Eu5-nb-Fu9" kind="relationship" relationship="nextPage" id="w4x-MG-gXd"/>

@@ -25,6 +25,10 @@
 		AE3FFEBD1F5DE7170081D497 /* quiz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3FFEBC1F5DE7170081D497 /* quiz.storyboard */; };
 		AE3FFEBF1F5DE7240081D497 /* showMap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3FFEBE1F5DE7240081D497 /* showMap.storyboard */; };
 		AE3FFEC31F5DE98C0081D497 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3FFEC21F5DE98C0081D497 /* Country.swift */; };
+		AE3FFEC51F5DFB850081D497 /* canada_hino.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE3FFEC41F5DFB850081D497 /* canada_hino.mp3 */; };
+		AE3FFEC91F5DFCC30081D497 /* japao_hino.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE3FFEC81F5DFCC30081D497 /* japao_hino.mp3 */; };
+		AE3FFECB1F5DFD600081D497 /* inglaterra_hino.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE3FFECA1F5DFD600081D497 /* inglaterra_hino.mp3 */; };
+		AE3FFECD1F5DFE590081D497 /* nova_zelandia_hino.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE3FFECC1F5DFE590081D497 /* nova_zelandia_hino.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +97,10 @@
 		AE3FFEBC1F5DE7170081D497 /* quiz.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = quiz.storyboard; sourceTree = "<group>"; };
 		AE3FFEBE1F5DE7240081D497 /* showMap.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = showMap.storyboard; sourceTree = "<group>"; };
 		AE3FFEC21F5DE98C0081D497 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		AE3FFEC41F5DFB850081D497 /* canada_hino.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = canada_hino.mp3; path = "firstAppWatch WatchKit Extension/canada_hino.mp3"; sourceTree = "<group>"; };
+		AE3FFEC81F5DFCC30081D497 /* japao_hino.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = japao_hino.mp3; path = firstAppWatch/japao_hino.mp3; sourceTree = "<group>"; };
+		AE3FFECA1F5DFD600081D497 /* inglaterra_hino.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = inglaterra_hino.mp3; path = firstAppWatch/inglaterra_hino.mp3; sourceTree = "<group>"; };
+		AE3FFECC1F5DFE590081D497 /* nova_zelandia_hino.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nova_zelandia_hino.mp3; path = firstAppWatch/nova_zelandia_hino.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +124,7 @@
 		AE3FFE711F5DE3350081D497 = {
 			isa = PBXGroup;
 			children = (
+				AE3FFEC71F5DFBC30081D497 /* Sounds */,
 				AE3FFE7C1F5DE3350081D497 /* firstAppWatch */,
 				AE3FFE901F5DE3350081D497 /* firstAppWatch WatchKit App */,
 				AE3FFE9F1F5DE3350081D497 /* firstAppWatch WatchKit Extension */,
@@ -196,6 +205,17 @@
 				360C32951F5DF0C0008387D2 /* QuizInterfaceController.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		AE3FFEC71F5DFBC30081D497 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				AE3FFEC41F5DFB850081D497 /* canada_hino.mp3 */,
+				AE3FFECA1F5DFD600081D497 /* inglaterra_hino.mp3 */,
+				AE3FFEC81F5DFCC30081D497 /* japao_hino.mp3 */,
+				AE3FFECC1F5DFE590081D497 /* nova_zelandia_hino.mp3 */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,7 +347,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3FFEC51F5DFB850081D497 /* canada_hino.mp3 in Resources */,
 				AE3FFEA91F5DE3360081D497 /* Assets.xcassets in Resources */,
+				AE3FFEC91F5DFCC30081D497 /* japao_hino.mp3 in Resources */,
+				AE3FFECD1F5DFE590081D497 /* nova_zelandia_hino.mp3 in Resources */,
+				AE3FFECB1F5DFD600081D497 /* inglaterra_hino.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
