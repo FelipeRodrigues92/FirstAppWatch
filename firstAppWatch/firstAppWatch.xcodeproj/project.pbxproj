@@ -192,8 +192,8 @@
 			isa = PBXGroup;
 			children = (
 				AE3FFEA21F5DE3360081D497 /* InterfaceController.swift */,
-				258C15641F5DEA8100E83B22 /* MapController.swift */,
 				360C32951F5DF0C0008387D2 /* QuizInterfaceController.swift */,
+				258C15641F5DEA8100E83B22 /* MapController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
