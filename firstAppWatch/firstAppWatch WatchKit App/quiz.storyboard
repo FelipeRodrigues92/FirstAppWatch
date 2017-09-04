@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Sca-dq-LNf">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="watch38" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -12,9 +12,47 @@
         <!--quiz-->
         <scene sceneID="5de-VO-Q9z">
             <objects>
-                <controller identifier="quiz" id="Sca-dq-LNf"/>
+                <controller identifier="quiz" id="Sca-dq-LNf" customClass="QuizInterfaceController" customModule="firstAppWatch_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="151" alignment="left" layout="vertical" id="3HI-KI-g5i">
+                            <items>
+                                <label width="136" height="30" alignment="left" text="Qual é o país?" textAlignment="center" id="7Sd-A4-7Un"/>
+                                <button width="1" height="25" alignment="left" title="Canadá" id="5F2-ZY-u6f">
+                                    <connections>
+                                        <action selector="pressedCanada" destination="Sca-dq-LNf" id="2zY-Q7-yLH"/>
+                                    </connections>
+                                </button>
+                                <button width="1" height="25" alignment="left" title="Inglaterra" id="nad-sP-fYg">
+                                    <connections>
+                                        <action selector="pressedEngland" destination="Sca-dq-LNf" id="I1b-dd-cdY"/>
+                                    </connections>
+                                </button>
+                                <button width="1" height="25" alignment="left" title="Japão" id="a98-m7-d4I">
+                                    <connections>
+                                        <action selector="pressedJapan" destination="Sca-dq-LNf" id="fRy-eW-izj"/>
+                                    </connections>
+                                </button>
+                                <button width="1" height="25" alignment="left" title="Nova Zelândia" id="nOq-PI-Oqk">
+                                    <connections>
+                                        <action selector="pressedNewZealand" destination="Sca-dq-LNf" id="FdK-4a-3Y9"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <segue destination="Fte-Xa-ekm" kind="relationship" relationship="nextPage" id="uCd-h8-qhc"/>
+                    </connections>
+                </controller>
             </objects>
             <point key="canvasLocation" x="1272" y="-1737"/>
+        </scene>
+        <!--map-->
+        <scene sceneID="9Jw-Q6-LdF">
+            <objects>
+                <controllerPlaceholder referencedIdentifier="map" id="Fte-Xa-ekm"/>
+            </objects>
+            <point key="canvasLocation" x="1524" y="-1737"/>
         </scene>
     </scenes>
 </document>

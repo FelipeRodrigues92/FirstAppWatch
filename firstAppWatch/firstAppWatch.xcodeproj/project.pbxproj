@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		258C15651F5DEA8100E83B22 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258C15641F5DEA8100E83B22 /* MapController.swift */; };
+		360C32961F5DF0C0008387D2 /* QuizInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C32951F5DF0C0008387D2 /* QuizInterfaceController.swift */; };
 		AE3FFE7E1F5DE3350081D497 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3FFE7D1F5DE3350081D497 /* AppDelegate.swift */; };
 		AE3FFE801F5DE3350081D497 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3FFE7F1F5DE3350081D497 /* ViewController.swift */; };
 		AE3FFE831F5DE3350081D497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3FFE811F5DE3350081D497 /* Main.storyboard */; };
@@ -70,6 +71,7 @@
 
 /* Begin PBXFileReference section */
 		258C15641F5DEA8100E83B22 /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		360C32951F5DF0C0008387D2 /* QuizInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizInterfaceController.swift; sourceTree = "<group>"; };
 		AE3FFE7A1F5DE3350081D497 /* firstAppWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstAppWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3FFE7D1F5DE3350081D497 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE3FFE7F1F5DE3350081D497 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 			children = (
 				AE3FFEA21F5DE3360081D497 /* InterfaceController.swift */,
 				258C15641F5DEA8100E83B22 /* MapController.swift */,
+				360C32951F5DF0C0008387D2 /* QuizInterfaceController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				360C32961F5DF0C0008387D2 /* QuizInterfaceController.swift in Sources */,
 				AE3FFEC31F5DE98C0081D497 /* Country.swift in Sources */,
 				AE3FFEA71F5DE3360081D497 /* NotificationController.swift in Sources */,
 				AE3FFEA51F5DE3360081D497 /* ExtensionDelegate.swift in Sources */,
