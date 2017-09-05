@@ -19,40 +19,45 @@
                                 <label width="136" height="30" alignment="left" text="Qual é o país?" textAlignment="center" id="7Sd-A4-7Un"/>
                                 <button width="1" height="25" alignment="left" title="Canadá" id="5F2-ZY-u6f">
                                     <connections>
-                                        <action selector="pressedCanada" destination="Sca-dq-LNf" id="2zY-Q7-yLH"/>
+                                        <action selector="pressedCanada" destination="Sca-dq-LNf" id="ZUS-54-aTg"/>
                                     </connections>
                                 </button>
                                 <button width="1" height="25" alignment="left" title="Inglaterra" id="nad-sP-fYg">
                                     <connections>
-                                        <action selector="pressedEngland" destination="Sca-dq-LNf" id="I1b-dd-cdY"/>
+                                        <action selector="pressedEngland" destination="Sca-dq-LNf" id="9Dh-Xy-Dvk"/>
                                     </connections>
                                 </button>
                                 <button width="1" height="25" alignment="left" title="Japão" id="a98-m7-d4I">
                                     <connections>
-                                        <action selector="pressedJapan" destination="Sca-dq-LNf" id="fRy-eW-izj"/>
+                                        <action selector="pressedJapan" destination="Sca-dq-LNf" id="AUr-Wv-WV9"/>
                                     </connections>
                                 </button>
                                 <button width="1" height="25" alignment="left" title="Nova Zelândia" id="nOq-PI-Oqk">
                                     <connections>
-                                        <action selector="pressedNewZealand" destination="Sca-dq-LNf" id="FdK-4a-3Y9"/>
+                                        <action selector="pressedNewZealand" destination="Sca-dq-LNf" id="lHR-J0-JSE"/>
                                     </connections>
                                 </button>
                             </items>
                         </group>
                     </items>
-                    <connections>
-                        <segue destination="Fte-Xa-ekm" kind="relationship" relationship="nextPage" id="uCd-h8-qhc"/>
-                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="1272" y="-1737"/>
         </scene>
-        <!--map-->
-        <scene sceneID="9Jw-Q6-LdF">
+        <!--Errou-->
+        <scene sceneID="Q5z-tT-Xor">
             <objects>
-                <controllerPlaceholder referencedIdentifier="map" id="Fte-Xa-ekm"/>
+                <controller identifier="Errou" id="NgT-Nq-idg">
+                    <items>
+                        <group width="1" height="151" alignment="left" layout="vertical" id="iPb-g4-Zi2">
+                            <items>
+                                <imageView height="151" alignment="left" image="Errou" id="yFX-Re-r3n"/>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="1524" y="-1737"/>
+            <point key="canvasLocation" x="1272" y="-1445"/>
         </scene>
     </scenes>
 </document>
