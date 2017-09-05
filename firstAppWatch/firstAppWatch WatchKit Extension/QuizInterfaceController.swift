@@ -20,6 +20,8 @@ class QuizInterfaceController: WKInterfaceController {
         
         country = context as! Country
         
+        print(country.name)
+        
         let locationCoordinate = CLLocationCoordinate2D(latitude: country.latitude, longitude: country.longitude)
         let span = MKCoordinateSpan(latitudeDelta: 0, longitudeDelta: 0)
         

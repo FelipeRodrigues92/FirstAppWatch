@@ -124,7 +124,6 @@
 		AE3FFE711F5DE3350081D497 = {
 			isa = PBXGroup;
 			children = (
-				AE3FFEC71F5DFBC30081D497 /* Sounds */,
 				AE3FFE7C1F5DE3350081D497 /* firstAppWatch */,
 				AE3FFE901F5DE3350081D497 /* firstAppWatch WatchKit App */,
 				AE3FFE9F1F5DE3350081D497 /* firstAppWatch WatchKit Extension */,
@@ -170,6 +169,7 @@
 		AE3FFE9F1F5DE3350081D497 /* firstAppWatch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				AE3FFEC71F5DFBC30081D497 /* Sounds */,
 				AE3FFEC11F5DE9520081D497 /* Controller */,
 				AE3FFEC01F5DE9440081D497 /* Model */,
 				AE3FFEA41F5DE3360081D497 /* ExtensionDelegate.swift */,
@@ -216,6 +216,7 @@
 				AE3FFECE1F5F1B2D0081D497 /* japao_hino.mp3 */,
 			);
 			name = Sounds;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

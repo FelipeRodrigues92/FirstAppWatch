@@ -27,8 +27,8 @@ class InterfaceController: WKInterfaceController {
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
-        let randowIndex = Int(arc4random_uniform(UInt32(4)))
-        country = Country(rawValue: randowIndex)!
+        let randomIndex = Int(arc4random_uniform(UInt32(4)))
+        country = Country(rawValue: randomIndex)!
         
         let filePath = Bundle.main.path(forResource: country.anthem, ofType: "mp3")
         let fileUrl = NSURL.fileURL(withPath: filePath!)
