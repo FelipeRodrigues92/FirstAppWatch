@@ -22,6 +22,8 @@ class InterfaceController: WKInterfaceController {
         player.pause()
         self.pushController(withName: "QuizInterfaceController", context: country)
     }
+    
+    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         

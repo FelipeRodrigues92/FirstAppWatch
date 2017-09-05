@@ -29,19 +29,9 @@
                             </items>
                         </group>
                     </items>
-                    <connections>
-                        <segue destination="Eu5-nb-Fu9" kind="relationship" relationship="nextPage" id="w4x-MG-gXd"/>
-                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
-        </scene>
-        <!--quiz-->
-        <scene sceneID="Xtn-bN-f3x">
-            <objects>
-                <controllerPlaceholder referencedIdentifier="quiz" id="Eu5-nb-Fu9"/>
-            </objects>
-            <point key="canvasLocation" x="516" y="346"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
