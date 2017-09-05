@@ -20,7 +20,7 @@ class InterfaceController: WKInterfaceController {
     }
     @IBAction func goToQuiz() {
         player.pause()
-        self.pushController(withName: "QuizInterfaceController", context: country)
+        self.pushController(withName: "Quiz", context: country)
     }
     
     
