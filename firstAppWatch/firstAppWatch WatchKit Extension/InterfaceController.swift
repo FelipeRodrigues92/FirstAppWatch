@@ -30,6 +30,8 @@ class InterfaceController: WKInterfaceController {
         let randomIndex = Int(arc4random_uniform(UInt32(4)))
         country = Country(rawValue: randomIndex)!
         
+        print(country.anthem)
+        
         let filePath = Bundle.main.path(forResource: country.anthem, ofType: "mp3")
         let fileUrl = NSURL.fileURL(withPath: filePath!)
         let asset = WKAudioFileAsset(url: fileUrl)

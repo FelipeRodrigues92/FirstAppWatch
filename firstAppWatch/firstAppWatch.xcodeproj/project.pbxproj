@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		258C15651F5DEA8100E83B22 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258C15641F5DEA8100E83B22 /* MapController.swift */; };
 		360C32961F5DF0C0008387D2 /* QuizInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C32951F5DF0C0008387D2 /* QuizInterfaceController.swift */; };
+		365DEF681F5F208C002B30B5 /* japao_hino.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 365DEF671F5F208C002B30B5 /* japao_hino.mp3 */; };
 		AE3FFE7E1F5DE3350081D497 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3FFE7D1F5DE3350081D497 /* AppDelegate.swift */; };
 		AE3FFE801F5DE3350081D497 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3FFE7F1F5DE3350081D497 /* ViewController.swift */; };
 		AE3FFE831F5DE3350081D497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3FFE811F5DE3350081D497 /* Main.storyboard */; };
@@ -28,7 +29,6 @@
 		AE3FFEC51F5DFB850081D497 /* canada_hino.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE3FFEC41F5DFB850081D497 /* canada_hino.mp3 */; };
 		AE3FFECB1F5DFD600081D497 /* inglaterra_hino.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE3FFECA1F5DFD600081D497 /* inglaterra_hino.mp3 */; };
 		AE3FFECD1F5DFE590081D497 /* nova_zelandia_hino.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE3FFECC1F5DFE590081D497 /* nova_zelandia_hino.mp3 */; };
-		AE3FFECF1F5F1B2D0081D497 /* japao_hino.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE3FFECE1F5F1B2D0081D497 /* japao_hino.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +76,7 @@
 /* Begin PBXFileReference section */
 		258C15641F5DEA8100E83B22 /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		360C32951F5DF0C0008387D2 /* QuizInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizInterfaceController.swift; sourceTree = "<group>"; };
+		365DEF671F5F208C002B30B5 /* japao_hino.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = japao_hino.mp3; path = firstAppWatch/japao_hino.mp3; sourceTree = "<group>"; };
 		AE3FFE7A1F5DE3350081D497 /* firstAppWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstAppWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3FFE7D1F5DE3350081D497 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE3FFE7F1F5DE3350081D497 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,7 +101,6 @@
 		AE3FFEC41F5DFB850081D497 /* canada_hino.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = canada_hino.mp3; path = "firstAppWatch WatchKit Extension/canada_hino.mp3"; sourceTree = "<group>"; };
 		AE3FFECA1F5DFD600081D497 /* inglaterra_hino.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = inglaterra_hino.mp3; path = firstAppWatch/inglaterra_hino.mp3; sourceTree = "<group>"; };
 		AE3FFECC1F5DFE590081D497 /* nova_zelandia_hino.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nova_zelandia_hino.mp3; path = firstAppWatch/nova_zelandia_hino.mp3; sourceTree = "<group>"; };
-		AE3FFECE1F5F1B2D0081D497 /* japao_hino.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = japao_hino.mp3; path = firstAppWatch/japao_hino.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,7 +213,7 @@
 				AE3FFEC41F5DFB850081D497 /* canada_hino.mp3 */,
 				AE3FFECA1F5DFD600081D497 /* inglaterra_hino.mp3 */,
 				AE3FFECC1F5DFE590081D497 /* nova_zelandia_hino.mp3 */,
-				AE3FFECE1F5F1B2D0081D497 /* japao_hino.mp3 */,
+				365DEF671F5F208C002B30B5 /* japao_hino.mp3 */,
 			);
 			name = Sounds;
 			path = ..;
@@ -327,7 +327,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE3FFECF1F5F1B2D0081D497 /* japao_hino.mp3 in Resources */,
 				AE3FFE881F5DE3350081D497 /* LaunchScreen.storyboard in Resources */,
 				AE3FFE851F5DE3350081D497 /* Assets.xcassets in Resources */,
 				AE3FFE831F5DE3350081D497 /* Main.storyboard in Resources */,
@@ -350,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE3FFEC51F5DFB850081D497 /* canada_hino.mp3 in Resources */,
+				365DEF681F5F208C002B30B5 /* japao_hino.mp3 in Resources */,
 				AE3FFEA91F5DE3360081D497 /* Assets.xcassets in Resources */,
 				AE3FFECD1F5DFE590081D497 /* nova_zelandia_hino.mp3 in Resources */,
 				AE3FFECB1F5DFD600081D497 /* inglaterra_hino.mp3 in Resources */,
