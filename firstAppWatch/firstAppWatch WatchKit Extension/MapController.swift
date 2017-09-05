@@ -23,4 +23,7 @@ class MapController: WKInterfaceController {
         map.addAnnotation(regionCoordinate.center, with: .purple)
     }
 
+    @IBAction func playAgain() {
+        popToRootController()
+    }
 }

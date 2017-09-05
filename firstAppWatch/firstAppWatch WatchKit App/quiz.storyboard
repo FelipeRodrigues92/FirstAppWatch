@@ -47,7 +47,7 @@
         <!--Errou-->
         <scene sceneID="Q5z-tT-Xor">
             <objects>
-                <controller identifier="Errou" id="NgT-Nq-idg">
+                <controller identifier="Errou" id="NgT-Nq-idg" customClass="DonkeyInterfaceController" customModule="firstAppWatch_WatchKit_Extension">
                     <items>
                         <group width="1" height="151" alignment="left" layout="vertical" id="iPb-g4-Zi2">
                             <items>

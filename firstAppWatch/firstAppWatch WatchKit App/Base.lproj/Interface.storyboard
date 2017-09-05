@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
     <device id="watch38" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,19 +9,20 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="12029"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--first-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="firstAppWatch_WatchKit_App" customModuleProvider="target">
+                <controller identifier="first" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="firstAppWatch_WatchKit_App" customModuleProvider="target">
                     <items>
                         <group width="1" alignment="left" layout="vertical" id="oqZ-MI-vy8">
                             <items>
+                                <label width="136" height="34" alignment="center" text="Listen and answer" textAlignment="center" id="b2J-me-Dme"/>
                                 <button width="1" alignment="left" title="Play " id="T6k-x3-yob">
                                     <connections>
                                         <action selector="playSound" destination="AgC-eL-Hgc" id="MCE-5p-cv2"/>
                                     </connections>
                                 </button>
-                                <button width="1" alignment="left" title="Go to Quiz!" id="kre-lR-qvu">
+                                <button width="1" alignment="left" alpha="0.0" title="Go to Quiz!" id="kre-lR-qvu">
                                     <connections>
                                         <action selector="goToQuiz" destination="AgC-eL-Hgc" id="asv-z5-36e"/>
                                     </connections>
@@ -29,6 +30,9 @@
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <outlet property="quizButton" destination="kre-lR-qvu" id="0aB-R1-hdd"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>

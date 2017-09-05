@@ -14,7 +14,16 @@
             <objects>
                 <controller identifier="map" id="Qe5-oK-2XS" customClass="MapController" customModule="firstAppWatch_WatchKit_Extension">
                     <items>
-                        <map width="1" height="1" alignment="center" verticalAlignment="center" id="UCD-ZS-S5F"/>
+                        <group width="1" alignment="center" layout="vertical" id="EK8-01-Q2x">
+                            <items>
+                                <map width="1" height="120" alignment="center" verticalAlignment="center" id="UCD-ZS-S5F"/>
+                                <button width="1" alignment="center" verticalAlignment="bottom" title="Play again" id="8TX-f0-Nig">
+                                    <connections>
+                                        <action selector="playAgain" destination="Qe5-oK-2XS" id="51X-8u-ceO"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
                     </items>
                     <connections>
                         <outlet property="map" destination="UCD-ZS-S5F" id="hQI-vy-jBm"/>

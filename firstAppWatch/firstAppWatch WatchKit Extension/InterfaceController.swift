@@ -14,10 +14,17 @@ class InterfaceController: WKInterfaceController {
 
     var player : WKAudioFilePlayer!
     var country : Country!
+    @IBOutlet var quizButton: WKInterfaceButton!
+    var timer: Timer!
     
     @IBAction func playSound() {
         player.play()
+        
+        animate(withDuration: 5) {
+            self.quizButton.setAlpha(1)
+        }
     }
+    
     @IBAction func goToQuiz() {
         player.pause()
         self.pushController(withName: "quiz", context: country)
@@ -27,28 +34,18 @@ class InterfaceController: WKInterfaceController {
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
+        // Configure interface objects here.
+    }
+    
+    override func didAppear() {
         let randomIndex = Int(arc4random_uniform(UInt32(4)))
         country = Country(rawValue: randomIndex)!
-        
-        print(country.anthem)
         
         let filePath = Bundle.main.path(forResource: country.anthem, ofType: "mp3")
         let fileUrl = NSURL.fileURL(withPath: filePath!)
         let asset = WKAudioFileAsset(url: fileUrl)
         let playerItem = WKAudioFilePlayerItem(asset: asset)
-         self.player = WKAudioFilePlayer(playerItem: playerItem)
-        
-        // Configure interface objects here.
-    }
-    
-    override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
-        super.willActivate()
-    }
-    
-    override func didDeactivate() {
-        // This method is called when watch view controller is no longer visible
-        super.didDeactivate()
+        self.player = WKAudioFilePlayer(playerItem: playerItem)
     }
 
 }
